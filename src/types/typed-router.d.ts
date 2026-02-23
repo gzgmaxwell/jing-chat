@@ -422,6 +422,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    'My_new': RouteRecordInfo<
+      'My_new',
+      '/tabmy_new/indexCopy',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/taborder/': RouteRecordInfo<
       '/taborder/',
       '/taborder',
@@ -849,6 +856,12 @@ declare module 'vue-router/auto-routes' {
         | never
     }
     'src/pages/tabmy_new/index.vue': {
+      routes:
+        | 'My_new'
+      views:
+        | never
+    }
+    'src/pages/tabmy_new/indexCopy.vue': {
       routes:
         | 'My_new'
       views:
