@@ -69,7 +69,7 @@ function goExchange() {
       </div>
     </div>
 
-    <div class="mx-4 -mt-14px">
+    <div class="mx-4 mt-14px">
       <div class="rounded-xl bg-white overflow-hidden">
         <div class="relative">
           <img :src="banner" class="h-auto w-full object-cover">
