@@ -13,4 +13,5 @@ export const rootRouteList: readonly string[] = [
   'Communicate_new',
   'Call_new',
   'My_new',
+  'MyMine',
 ]

@@ -30,7 +30,7 @@ watch(
       case '/tabcall_new':
         active.value = 2
         break
-      case '/tabmy_new':
+      case '/my_new':
         active.value = 3
         break
     }
@@ -102,7 +102,7 @@ const show = computed(() => {
         <van-image v-else :src="call" class="imageIcon" />
       </template>
     </van-tabbar-item>
-    <van-tabbar-item replace to="/tabmy_new">
+    <van-tabbar-item replace to="/my_new">
       {{ $t("tabbar.my_new") }}
       <template #icon>
         <van-image

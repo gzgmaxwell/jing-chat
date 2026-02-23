@@ -156,6 +156,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    'MyMine': RouteRecordInfo<
+      'MyMine',
+      '/my_new',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/myProfile/': RouteRecordInfo<
       '/myProfile/',
       '/myProfile',
@@ -630,6 +637,12 @@ declare module 'vue-router/auto-routes' {
     'src/pages/my/index.vue': {
       routes:
         | 'My'
+      views:
+        | never
+    }
+    'src/pages/my_new/index.vue': {
+      routes:
+        | 'MyMine'
       views:
         | never
     }
