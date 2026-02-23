@@ -156,13 +156,6 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    'MyMine': RouteRecordInfo<
-      'MyMine',
-      '/my_new',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
     '/myProfile/': RouteRecordInfo<
       '/myProfile/',
       '/myProfile',
@@ -422,16 +415,9 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    'My_new': RouteRecordInfo<
-      'My_new',
+    'MyMine': RouteRecordInfo<
+      'MyMine',
       '/tabmy_new',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    'My_new': RouteRecordInfo<
-      'My_new',
-      '/tabmy_new/indexCopy',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -637,12 +623,6 @@ declare module 'vue-router/auto-routes' {
     'src/pages/my/index.vue': {
       routes:
         | 'My'
-      views:
-        | never
-    }
-    'src/pages/my_new/index.vue': {
-      routes:
-        | 'MyMine'
       views:
         | never
     }
@@ -870,13 +850,7 @@ declare module 'vue-router/auto-routes' {
     }
     'src/pages/tabmy_new/index.vue': {
       routes:
-        | 'My_new'
-      views:
-        | never
-    }
-    'src/pages/tabmy_new/indexCopy.vue': {
-      routes:
-        | 'My_new'
+        | 'MyMine'
       views:
         | never
     }
